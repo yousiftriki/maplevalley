@@ -1,0 +1,190 @@
+import React from 'react';
+import Image from 'next/image';
+
+export default function FactsOrFiction() {
+  return (
+    <main>
+      {/* Hero Section */}
+      <section className="bg-gradient-to-b from-gray-50 to-white py-24">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+            Facts or Fiction
+          </h1>
+          <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
+            Separating myths from reality in affordable housing
+          </p>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="space-y-12">
+          {/* Myth 1 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="grid md:grid-cols-2">
+              <div className="relative h-[300px] md:h-[500px] w-full">
+                <Image
+                  src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                  alt="Safe neighborhood"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                  quality={85}
+                />
+              </div>
+              <div className="p-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  Affordable housing increases crime.
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  All residents are rigorously screened via detailed background checks. Safety is Maple Valley's number one priority, whether that is for our residents, employees, or the communities of which we are a part.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Myth 2 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="grid md:grid-cols-2">
+              <div className="p-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  Affordable housing decreases property values.
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  The beautiful, well-maintained buildings Maple Valley develops can help increase property values in several ways. First, our investments in underserved areas often spur further investments in the community. Next, providing workforce families access to stable, high-quality housing further spurs economic development as residents seek goods and services within communities. Lastly, it's important to understand that most of our residents already live in the communities where we build. In other words, we're generally not bringing new people to your community, we are ensuring your friends and neighbors have the best possible living situation.
+                </p>
+              </div>
+              <div className="relative h-[400px] md:h-[500px]">
+                <Image
+                  src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                  alt="Modern housing development"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Myth 3 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="grid md:grid-cols-2">
+              <div className="relative h-[400px] md:h-[500px]">
+                <Image
+                  src="/img/house 2.jpg"
+                  alt="Beautiful affordable housing"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                  quality={85}
+                />
+              </div>
+              <div className="p-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  Affordable housing is an eye sore.
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  Maple Valley creates stylish, attractive properties that are designed to fit the aesthetic and environment of the communities where they are built. We have won many awards for architecture/design, multifamily rehabilitation, energy efficiency, historic adaptive reuse, and community amenities. Our properties look as good or better than any market-rate apartment available in the neighborhood. Our leasing professionals often turn away individuals inquiring about our beautiful, well-kept communities because they are far beyond the income limits.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Myth 4 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="grid md:grid-cols-2">
+              <div className="p-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  People who take advantage of affordable housing are lazy.
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  The vast majority of Maple Valley residents are working, disabled, or retired. We serve seniors, veterans, and other hard-working groups that for one reason or another can't find the types of housing they deserve. Maple Valley Companies proudly serves our residents and neighbors looking for a better life for themselves and their families.
+                </p>
+              </div>
+              <div className="relative h-[400px] md:h-[500px]">
+                <Image
+                  src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                  alt="Working professionals"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Myth 5 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="grid md:grid-cols-2">
+              <div className="relative h-[300px] md:h-[500px] w-full">
+                <Image
+                  src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                  alt="Black and white wooden table and chairs"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                  quality={85}
+                />
+              </div>
+              <div className="p-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  All affordable housing is "income based."
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  Maple Valley utilizes a variety of funding sources and programs. This means that most of our housing is "income restricted" rather than "income based." Income based takes a predetermined percentage of a resident's income for rent. For example, if a person earned 50% of the median income, his/her rent would be 50% of the market rate. On the other hand, income restricted utilizes a range of income that is acceptable for residents. For example, we might only accept residents making between $20,000 – $25,000 per year.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Myth 6 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="grid md:grid-cols-2">
+              <div className="p-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  All affordable housing is Section 8
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  Much of affordable rental housing developed today is made possible through Low Income Housing Tax Credits (LIHTC), a competitive public policy program enacted under the Tax Reform Act of 1986. This is Section 42 of the Internal Revenue Code regulates and encourages developers to build affordable housing to meet the needs of local communities. In most cases, residents pay monthly rent without subsidies.
+                </p>
+              </div>
+              <div className="relative h-[300px] md:h-[500px] w-full">
+                <Image
+                  src="/img/houses.jpg"
+                  alt="Houses image"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                  quality={85}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="bg-gray-50 py-16 px-4 md:px-8">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Have Questions?</h2>
+          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
+            We're here to help clarify any misconceptions about affordable housing. Contact us to learn more about our mission and how we're making a difference in our community.
+          </p>
+          <a
+            href="/contact"
+            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+          >
+            Contact Us
+          </a>
+        </div>
+      </section>
+    </main>
+  );
+} 
